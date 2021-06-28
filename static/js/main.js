@@ -28,7 +28,7 @@ const getInfo = async(event) =>{
           try{
                // defining the url of the weather api 
 
-               let url = `http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=${appid}`
+               let url = `http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=053c661820ab6d6e48ead25c9ab72d44`
 
 
                // fetching the url then converting it into json format then converting it to an array
