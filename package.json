@@ -1,0 +1,21 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "Weather website with the help of api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Aakash",
+  "license": "ISC",
+  "dependencies": {
+    "consolidate": "^0.16.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.2",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
